@@ -1,0 +1,72 @@
+create table items (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    title varchar(200) not null,
+    description varchar(80000000) not null,
+    price decimal(65) not null,
+    image varbinary(4294967295) not null,
+    radio varchar(200) not null
+)
+
+insert into items (title, description, price, image, radio,username,email,country,state,zip) VALUES('Lorem Ipsum','Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...','300.32','https://i.ytimg.com/vi/cSblrT8hBDc/maxresdefault.jpg','Used','Ryan_Rana111','ryanrana04@gmail.com',"United States","New Jersey","07159")
+
+
+
+create table login ( id int(11) not null PRIMARY KEY AUTO_INCREMENT, username varchar(40) not null, pass varchar(40) not null, email varchar(200) not null )
+
+
+create table users (
+	id int(65) not null PRIMARY KEY AUTO_INCREMENT,
+	age varchar(200) not null,
+    	name varchar(200) not null,
+    	pass varchar(40) not null,
+    	email varchar(200) not null,
+    	state varchar(200) not null,
+    	school varchar(200) not null,
+    	grade int(200) not null,
+    	p1 varchar(200) not null,
+    	p2 varchar(200) not null,
+    	p3 varchar(200) not null,
+    p4 varchar(200) not null,
+    p5 varchar(200) not null,
+    p6 varchar(200) not null,
+    p7 varchar(200) not null,
+    p8 varchar(200) not null,
+    p1t varchar(200) not null,
+    p2t varchar(200) not null,
+    p3t varchar(200) not null,
+    p4t varchar(200) not null,
+    p5t varchar(200) not null,
+    p6t varchar(200) not null,
+    p7t varchar(200) not null,
+    p8t varchar(200) not null,
+    random varchar(200) not null,
+)
+
+
+create table users (
+	id int(65) not null PRIMARY KEY AUTO_INCREMENT,
+    random varchar(200) not null,
+	name varchar(200) not null,
+    pass varchar(40) not null,
+   	email varchar(200) not null,
+    phone varchar(200) not null,
+    facebook varchar(200) not null,
+    twitter varchar(200) not null,
+    linkedin varchar(200) not null,
+    youtube varchar(200) not null,
+    instagram varchar(200) not null,
+    snapchat varchar(200) not null,
+    github varchar(200) not null,
+    twitch varchar(200) not null,
+    slack varchar(200) not null
+    
+    
+)
+
+
+create table items (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    name varchar(200) not null,
+    message varchar(16083) not null,
+   	sendtime time(6) not null
+)
